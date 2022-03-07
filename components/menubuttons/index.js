@@ -7,7 +7,9 @@ export default function MenuButtons({ items }) {
     <div>
       {items.map((item, index) => {
         return (
-          <MenuButton label={item.label} />
+          <li key={index}>
+            <MenuButton label={item.label} />
+          </li>
         );
       })}
     </div>
