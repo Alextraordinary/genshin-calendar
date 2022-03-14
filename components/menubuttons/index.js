@@ -1,15 +1,15 @@
 import React from 'react';
 import MenuButton from './menubutton/index.js'
+import styles from './style.module.css';
+import SelectionContext from '../selection/Selection.js';
 
-
-export default function MenuButtons({ items }) {
+export default function MenuButtons({ items, type }) {
+  
   return (
-    <div>
+    <div className={styles.menuButtons}>
       {items.map((item, index) => {
         return (
-          <li key={index}>
-            <MenuButton label={item.label} />
-          </li>
+          <MenuButton label={item.label} index={index} type={type} />
         );
       })}
     </div>
