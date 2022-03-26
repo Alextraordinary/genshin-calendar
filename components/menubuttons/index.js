@@ -1,7 +1,6 @@
 import React from 'react';
 import MenuButton from './menubutton/index.js'
 import styles from './style.module.css';
-import SelectionContext from '../selection/Selection.js';
 
 export default function MenuButtons({ items, type }) {
   

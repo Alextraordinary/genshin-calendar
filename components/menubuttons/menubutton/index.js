@@ -1,4 +1,4 @@
-import React, { ReactNode, useContext, useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
 import styles from './menubutton.module.css';
 import SelectionContext from '../../selection/Selection';
 
@@ -11,6 +11,10 @@ export default function MenuButton({ label, index, type }) {
     }
     
   }
+
+  useEffect(() => {
+    setRegion('Mondstadt');
+  }, []);
 
   if (type == 'region') {
     return (
