@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import { useState, useCallback } from 'react'
-import Image from 'next/image'
 import styles from './layout.module.css'
-import utilStyles from '../../styles/utils.module.css'
 import Link from 'next/link'
 import SelectionContext from '../selection/Selection'
 

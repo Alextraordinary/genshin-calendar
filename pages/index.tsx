@@ -4,7 +4,7 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import MenuButtons from '../components/menubuttons/index.js'
 import { dayButtons, regionButtons } from './data.json'
-
+import ImageCard from '../components/imagecards/imagecard';
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +17,8 @@ const Home: NextPage = () => {
         <h1 className={utilStyles.headingLg}>Region</h1>
         <MenuButtons items={regionButtons} type='region' />
         <h1 className={utilStyles.headingLg}>Day</h1>
-
+        <MenuButtons items={dayButtons} type='day' />
+        <ImageCard src='/images/Venti.png' name='Venti'></ImageCard>
       </section>
     </Layout>
     </div>

@@ -1,6 +1,9 @@
 {
   "dayButtons": [
     {
+      "label": "Today"
+    },
+    {
       "label": "Monday"
     },
     {
