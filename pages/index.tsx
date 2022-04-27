@@ -18,7 +18,10 @@ const Home: NextPage = () => {
         <MenuButtons items={regionButtons} type='region' />
         <h1 className={utilStyles.headingLg}>Day</h1>
         <MenuButtons items={dayButtons} type='day' />
-        <ImageCard src='/images/Venti.png' name='Venti'></ImageCard>
+        <div className={utilStyles.testDiv}>
+          <ImageCard src='/images/Venti.png' name='Venti' />
+          <ImageCard src='/images/Beidou.png' name='Beidou' />
+        </div>
       </section>
     </Layout>
     </div>

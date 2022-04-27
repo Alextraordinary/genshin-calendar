@@ -1,7 +1,17 @@
 .imageCard {
   text-align: center;
-  font-size: 30px;
   padding: 1rem 1rem 1rem 1rem;
   margin: 1rem 0 1rem 2rem;
   border-radius: 0.5rem;
+  display: inline-block;
+  max-height: 5.8rem;
+  background: rgb(172,140,24);
+  background: linear-gradient(90deg, rgba(172,140,24,1) 0%, rgba(159,133,12,1) 46%, rgba(224,166,15,1) 74%);
+  background-size: 70% 90%;
+  background-repeat: no-repeat;
+  background-position: center 80%;
+}
+
+.overlay {
+  background-color: gold;
 }
