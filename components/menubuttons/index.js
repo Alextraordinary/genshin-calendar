@@ -5,10 +5,10 @@ import styles from './style.module.css';
 export default function MenuButtons({ items, type }) {
   
   return (
-    <div className={styles.menuButtons} key={index}>
+    <div className={styles.menuButtons} >
       {items.map((item, index) => {
         return (
-          <MenuButton label={item.label} index={index} type={type} />
+          <MenuButton key={index} label={item.label} index={index} type={type} />
         );
       })}
     </div>
