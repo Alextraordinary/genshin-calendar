@@ -3,8 +3,8 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import MenuButtons from '../components/menubuttons/index.js'
-import { dayButtons, regionButtons } from './data.json'
-import ImageCard from '../components/imagecards/imagecard';
+import { dayButtons, regionButtons, mondstadtCharacters } from './data.json'
+import ImageCards from '../components/imagecards';
 
 const Home: NextPage = () => {
   return (
@@ -18,10 +18,7 @@ const Home: NextPage = () => {
         <MenuButtons items={regionButtons} type='region' />
         <h1 className={utilStyles.headingLg}>Day</h1>
         <MenuButtons items={dayButtons} type='day' />
-        <div className={utilStyles.testDiv}>
-          <ImageCard src='/images/Venti.png' name='Venti' />
-          <ImageCard src='/images/Beidou.png' name='Beidou' />
-        </div>
+        <ImageCards items={mondstadtCharacters} />
       </section>
     </Layout>
     </div>

@@ -35,5 +35,22 @@
     {
       "label": "Inazuma"
     }
+  ],
+  "mondstadtCharacters": [
+    {
+      "name": "Amber",
+      "rarity": 4,
+      "src": "/images/Amber.png"
+    },
+    {
+      "name": "Bennett",
+      "rarity": 4,
+      "src": "/images/Bennett.png"
+    },
+    {
+      "name": "Venti",
+      "rarity": 5,
+      "src": "/images/Venti.png"
+    }
   ]
 }
