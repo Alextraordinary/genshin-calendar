@@ -40,17 +40,60 @@
     {
       "name": "Amber",
       "rarity": 4,
-      "src": "/images/Amber.png"
+      "src": "/images/Amber.png",
+      "day": 1
     },
     {
       "name": "Bennett",
       "rarity": 4,
-      "src": "/images/Bennett.png"
+      "src": "/images/Bennett.png",
+      "day": 2
     },
     {
       "name": "Venti",
       "rarity": 5,
-      "src": "/images/Venti.png"
+      "src": "/images/Venti.png",
+      "day": 3
+    }
+  ],
+  "liyueCharacters": [
+    {
+      "name": "Beidou",
+      "rarity": 4,
+      "src": "/images/Beidou.png",
+      "day": 3
+    },
+    {
+      "name": "Kaedehara Kazuha",
+      "rarity": 5,
+      "src": "/images/Kazuha.png",
+      "day": 2
+    },
+    {
+      "name": "Keqing",
+      "rarity": 5,
+      "src": "/images/Keqing.png",
+      "day": 1
+    }
+  ],
+  "inazumaCharacters": [
+    {
+      "name": "Arataki Itto",
+      "rarity": 5,
+      "src": "/images/Itto.png",
+      "day": 2
+    },
+    {
+      "name": "Raiden Shogun",
+      "rarity": 5,
+      "src": "/images/RaidenShogun.png",
+      "day": 3
+    },
+    {
+      "name": "Sangonomiya Kokomi",
+      "rarity": 5,
+      "src": "/images/Kokomi.png",
+      "day": 1
     }
   ]
 }

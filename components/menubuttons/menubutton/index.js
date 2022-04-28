@@ -15,16 +15,11 @@ export default function MenuButton({ label, index, type }) {
     }
   }
 
-  useEffect(() => {
-    setRegion('Mondstadt');
-    setDayOfWeek('Today');
-  }, []);
-
   if (type === 'region') {
     return (
       <button className={label == region ? styles.menuButtonActive : styles.menuButtonInactive } index={index} onClick={onClick}>
         {label}
-      </button>
+      </button>  
     );
   }
   else if (type === 'day') {

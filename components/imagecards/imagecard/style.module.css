@@ -3,6 +3,16 @@
   background: linear-gradient(90deg, rgba(172,140,24,1) 0%, rgba(159,133,12,1) 46%, rgba(224,166,15,1) 74%);
 }
 
+.fourstar {
+  background: rgb(155,24,172);
+  background: linear-gradient(90deg, rgba(155,24,172,1) 0%, rgba(158,22,167,1) 52%, rgba(113,24,154,1) 65%);
+}
+
+.threestar {
+  background: rgb(99,116,227);
+  background: linear-gradient(90deg, rgba(99,116,227,1) 0%, rgba(60,90,195,1) 52%, rgba(68,141,191,1) 65%);
+}
+
 .imageCard {
   text-align: center;
   padding: 1rem 1rem 1rem 1rem;
