@@ -1,3 +1,8 @@
+.fivestar {
+  background: rgb(172,140,24);
+  background: linear-gradient(90deg, rgba(172,140,24,1) 0%, rgba(159,133,12,1) 46%, rgba(224,166,15,1) 74%);
+}
+
 .imageCard {
   text-align: center;
   padding: 1rem 1rem 1rem 1rem;
@@ -8,11 +13,6 @@
   background-size: 70% 90%;
   background-repeat: no-repeat;
   background-position: center 80%;
-}
-
-.fivestar {
-  background: rgb(172,140,24);
-  background: linear-gradient(90deg, rgba(172,140,24,1) 0%, rgba(159,133,12,1) 46%, rgba(224,166,15,1) 74%);
 }
 
 .overlay {

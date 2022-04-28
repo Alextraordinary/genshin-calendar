@@ -6,7 +6,7 @@ import ReactTooltip from 'react-tooltip';
 export default function ImageCard({ src, name }) {
   
   return (
-    <div className={`${styles.imageCard} ${styles.fivestar}`}>
+    <div className={`${styles.fivestar} ${styles.imageCard}`}>
       <Image src={src} width='75%' height='75%' data-tip={name} data-for={name} alt={name} />
       <ReactTooltip id={name} place="top" effect="solid">
         {name}
