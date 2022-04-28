@@ -2,8 +2,8 @@ import { createContext } from 'react';
 
 const SelectionContext = createContext({
   region: "",
-  setRegion: () => {},
+  setRegion: (region) => {region = region},
   dayOfWeek: "",
-  setDayOfWeek: () => {}
+  setDayOfWeek: (dayOfWeek) => {dayOfWeek = dayOfWeek}
 });
 export default SelectionContext;
