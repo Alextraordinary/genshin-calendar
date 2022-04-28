@@ -54,12 +54,12 @@ export default function ImageCards({ items }) {
       {items.map((item, index) => {
         if (dayCode === 0) {
           return (
-            <ImageCard key={index} src={item.src} name={item.name} />
+            <ImageCard key={index} src={item.src} name={item.name} rarity={item.rarity} />
           );
         }
         else if (item.day === dayCode) {
           return (
-            <ImageCard key={index} src={item.src} name={item.name} />
+            <ImageCard key={index} src={item.src} name={item.name} rarity={item.rarity}/>
           );
         }
         
