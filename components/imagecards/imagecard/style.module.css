@@ -1,26 +1,23 @@
 .fivestar {
-  background: rgb(172,140,24);
-  background: linear-gradient(90deg, rgba(172,140,24,1) 0%, rgba(159,133,12,1) 46%, rgba(224,166,15,1) 74%);
+  background-image: url("/images/FiveStarBackground.png");
 }
 
 .fourstar {
-  background: rgb(155,24,172);
-  background: linear-gradient(90deg, rgba(155,24,172,1) 0%, rgba(158,22,167,1) 52%, rgba(113,24,154,1) 65%);
+  background-image: url("/images/FourStarBackground.png");
 }
 
 .threestar {
-  background: rgb(99,116,227);
-  background: linear-gradient(90deg, rgba(99,116,227,1) 0%, rgba(60,90,195,1) 52%, rgba(68,141,191,1) 65%);
+  background-image: url("/images/ThreeStarBackground.png");
 }
 
 .imageCard {
   text-align: center;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 6rem 1rem;
   margin: 1rem 0 1rem 2rem;
   border-radius: 0.5rem;
   display: inline-block;
   max-height: 5.8rem;
-  background-size: 70% 90%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center 80%;
 }
