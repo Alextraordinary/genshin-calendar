@@ -34,9 +34,24 @@
     },
     {
       "label": "Inazuma"
+    },
+    {
+      "label": "Sumeru"
     }
   ],
   "mondstadtCharacters": [
+    {
+      "name": "Albedo",
+      "rarity": 5,
+      "src": "/images/Albedo.png",
+      "day": 3
+    },
+    {
+      "name": "Aloy",
+      "rarity": 5,
+      "src": "/images/Aloy.png",
+      "day": 1
+    },
     {
       "name": "Amber",
       "rarity": 4,
@@ -44,10 +59,100 @@
       "day": 1
     },
     {
+      "name": "Barbara",
+      "rarity": 4,
+      "src": "/images/Barbara.png",
+      "day": 1
+    },
+    {
       "name": "Bennett",
       "rarity": 4,
       "src": "/images/Bennett.png",
       "day": 2
+    },
+    {
+      "name": "Eula",
+      "rarity": 5,
+      "src": "/images/Eula.png",
+      "day": 2
+    },
+    {
+      "name": "Diluc",
+      "rarity": 5,
+      "src": "/images/Diluc.png",
+      "day": 2
+    },
+    {
+      "name": "Diona",
+      "rarity": 4,
+      "src": "/images/Diona.png",
+      "day": 1
+    },
+    {
+      "name": "Fischl",
+      "rarity": 4,
+      "src": "/images/Fischl.png",
+      "day": 3
+    },
+    {
+      "name": "Jean",
+      "rarity": 5,
+      "src": "/images/Jean.png",
+      "day": 2
+    },
+    {
+      "name": "Kaeya",
+      "rarity": 4,
+      "src": "/images/Kaeya.png",
+      "day": 3
+    },
+    {
+      "name": "Klee",
+      "rarity": 5,
+      "src": "/images/Klee.png",
+      "day": 1
+    },
+    {
+      "name": "Lisa",
+      "rarity": 4,
+      "src": "/images/Lisa.png",
+      "day": 3
+    },
+    {
+      "name": "Mona",
+      "rarity": 5,
+      "src": "/images/Mona.png",
+      "day": 2
+    },
+    {
+      "name": "Noelle",
+      "rarity": 4,
+      "src": "/images/Noelle.png",
+      "day": 2
+    },
+    {
+      "name": "Razor",
+      "rarity": 4,
+      "src": "/images/Razor.png",
+      "day": 2
+    },
+    {
+      "name": "Rosaria",
+      "rarity": 4,
+      "src": "/images/Rosaria.png",
+      "day": 3
+    },
+    {
+      "name": "Sucrose",
+      "rarity": 4,
+      "src": "/images/Sucrose.png",
+      "day": 1
+    },
+    {
+      "name": "Tartaglia",
+      "rarity": 5,
+      "src": "/images/Tartaglia.png",
+      "day": 1
     },
     {
       "name": "Venti",
@@ -64,6 +169,24 @@
       "day": 3
     },
     {
+      "name": "Chongyun",
+      "rarity": 4,
+      "src": "/images/Chongyun.png",
+      "day": 2
+    },
+    {
+      "name": "Ganyu",
+      "rarity": 5,
+      "src": "/images/Ganyu.png",
+      "day": 2
+    },
+    {
+      "name": "Hu Tao",
+      "rarity": 5,
+      "src": "/images/HuTao.png",
+      "day": 2
+    },
+    {
       "name": "Kaedehara Kazuha",
       "rarity": 5,
       "src": "/images/Kazuha.png",
@@ -74,6 +197,72 @@
       "rarity": 5,
       "src": "/images/Keqing.png",
       "day": 1
+    },
+    {
+      "name": "Ningguang",
+      "rarity": 4,
+      "src": "/images/Ningguang.png",
+      "day": 1
+    },
+    {
+      "name": "Qiqi",
+      "rarity": 5,
+      "src": "/images/Qiqi.png",
+      "day": 1
+    },
+    {
+      "name": "Shenhe",
+      "rarity": 5,
+      "src": "/images/Shenhe.png",
+      "day": 1
+    },
+    {
+      "name": "Xiangling",
+      "rarity": 4,
+      "src": "/images/Xiangling.png",
+      "day": 2
+    },
+    {
+      "name": "Xiao",
+      "rarity": 5,
+      "src": "/images/Xiao.png",
+      "day": 1
+    },
+    {
+      "name": "Xingqiu",
+      "rarity": 4,
+      "src": "/images/Xingqiu.png",
+      "day": 3
+    },
+    {
+      "name": "Xinyan",
+      "rarity": 4,
+      "src": "/images/Xinyan.png",
+      "day": 3
+    },
+    {
+      "name": "Yanfei",
+      "rarity": 4,
+      "src": "/images/Yanfei.png",
+      "day": 3
+    },
+    {
+      "name": "Yelan",
+      "rarity": 5,
+      "src": "/images/Yelan.png",
+      "day": 1
+    },
+    {
+      "name": "Yunjin",
+      "rarity": 4,
+      "src": "/images/Yunjin.png",
+      "day": 2
+    },
+    {
+      "name": "Zhongli",
+      "rarity": 5,
+      "src": "/images/Zhongli.png",
+      "day": 3
     }
   ],
   "inazumaCharacters": [
@@ -81,6 +270,36 @@
       "name": "Arataki Itto",
       "rarity": 5,
       "src": "/images/Itto.png",
+      "day": 2
+    },
+    {
+      "name": "Gorou",
+      "rarity": 4,
+      "src": "/images/Gorou.png",
+      "day": 3
+    },
+    {
+      "name": "Kamisato Ayaka",
+      "rarity": 5,
+      "src": "/images/Ayaka.png",
+      "day": 2
+    },
+    {
+      "name": "Kamisato Ayato",
+      "rarity": 5,
+      "src": "/images/Ayato.png",
+      "day": 2
+    },
+    {
+      "name": "Kujou Sara",
+      "rarity": 4,
+      "src": "/images/Sara.png",
+      "day": 2
+    },
+    {
+      "name": "Kuki Shinobu",
+      "rarity": 4,
+      "src": "/images/Shinobu.png",
       "day": 2
     },
     {
@@ -94,6 +313,98 @@
       "rarity": 5,
       "src": "/images/Kokomi.png",
       "day": 1
+    },
+    {
+      "name": "Sayu",
+      "rarity": 4,
+      "src": "/images/Sayu.png",
+      "day": 3
+    },
+    {
+      "name": "Shikanoin Heizou",
+      "rarity": 4,
+      "src": "/images/Heizou.png",
+      "day": 1
+    },
+    {
+      "name": "Thoma",
+      "rarity": 4,
+      "src": "/images/Thoma.png",
+      "day": 1
+    },
+    {
+      "name": "Yae Miko",
+      "rarity": 5,
+      "src": "/images/Miko.png",
+      "day": 3
+    },
+    {
+      "name": "Yoimiya",
+      "rarity": 5,
+      "src": "/images/Yoimiya.png",
+      "day": 1
+    }
+  ],
+  "sumeruCharacters": [
+    {
+      "name": "Candace",
+      "rarity": 4,
+      "src": "/images/Candace.png",
+      "day": 1
+    },
+    {
+      "name": "Collei",
+      "rarity": 4,
+      "src": "/images/Collei.png",
+      "day": 3
+    },
+    {
+      "name": "Cyno",
+      "rarity": 5,
+      "src": "/images/Cyno.png",
+      "day": 1
+    },
+    {
+      "name": "Dori",
+      "rarity": 4,
+      "src": "/images/Dori.png",
+      "day": 2
+    },
+    {
+      "name": "Faruzan",
+      "rarity": 4,
+      "src": "/images/Faruzan.png",
+      "day": 1
+    },
+    {
+      "name": "Layla",
+      "rarity": 4,
+      "src": "/images/Layla.png",
+      "day": 2
+    },
+    {
+      "name": "Nahida",
+      "rarity": 5,
+      "src": "/images/Nahida.png",
+      "day": 2
+    },
+    {
+      "name": "Nilou",
+      "rarity": 5,
+      "src": "/images/Nilou.png",
+      "day": 3
+    },
+    {
+      "name": "Tighnari",
+      "rarity": 5,
+      "src": "/images/Tighnari.png",
+      "day": 1
+    },
+    {
+      "name": "Wanderer",
+      "rarity": 5,
+      "src": "/images/Wanderer.png",
+      "day": 3
     }
   ]
 }

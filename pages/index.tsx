@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import MenuButtons from '../components/menubuttons/index.js'
-import { dayButtons, regionButtons, mondstadtCharacters, liyueCharacters, inazumaCharacters } from './data.json'
+import { dayButtons, regionButtons, mondstadtCharacters, liyueCharacters, inazumaCharacters, sumeruCharacters } from './data.json'
 import ImageCards from '../components/imagecards';
 import SelectionContext from '../components/selection/Selection'
 
@@ -22,6 +22,9 @@ const Home: NextPage = () => {
         break;
       case "Inazuma":
         setCurrCharacters(inazumaCharacters);
+        break;
+      case "Sumeru":
+        setCurrCharacters(sumeruCharacters);
         break;
       default:
         setCurrCharacters(mondstadtCharacters);

@@ -61,8 +61,7 @@ export default function ImageCards({ items }) {
           return (
             <ImageCard key={index} src={item.src} name={item.name} rarity={item.rarity}/>
           );
-        }
-        
+        }        
       })}
     </div>
   );
